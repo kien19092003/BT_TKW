@@ -1,0 +1,15 @@
+table{
+    background-color: white;
+}
+
+.title>a{
+    color: #3e2093;
+}
+body{
+    background-color: #c8e8e9;
+    text-align: center;
+}
+button{
+    background-color: #3e2093;
+    color: antiquewhite;
+}

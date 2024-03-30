@@ -1,0 +1,128 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header{
+    background-color: RGB(0,60,113);
+    color: white;
+    height: 25%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    text-decoration: none;
+    background-color: RGB(1,76,142); 
+}
+.footer{
+    background-color: RGB(13,41,58);
+    color: white;
+}
+.main{
+    background-color: RGB(255,255,255);
+    text-align: center;
+}
+.img_wonderful1{
+    width: 80%;
+    margin-left: 10%;
+}
+@media screen and (min-width: 800px){
+    .header{
+        background-color: RGB(0,60,113);
+        color: white;
+        height: 25%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .navbar{
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display:flex;
+        justify-content: space-between;
+        padding-left: 10px;
+    }   
+    a{
+        display: flex;
+        flex-grow: 0.05;
+        text-align: center;
+    }
+    .x{
+        display: flex;
+        flex-grow: 1;
+
+    }   
+    .row{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    .side{
+        background-color: RGB(241,241,241);
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        margin-left: -10px;
+    }
+    img{
+        width: 100%;
+    }
+    .footer{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .header{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    a{
+        margin-top: 15px;
+    }
+    .side{
+        background-color: RGB(241,241,241);
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .main{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    img{
+        width: 100%;
+    }
+    .main>img_wonderful{
+        width: 70%;
+    }
+    .footer{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .img_wonderful1{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
